@@ -1,11 +1,10 @@
-*,
-*:before,
-*:after {
+* {
   margin: 0;
   padding: 0;
   bottom: 0;
   box-sizing: border-box;
 }
+
 .underline {
   text-decoration-color: #9A9CA8;
   text-decoration: underline;
@@ -81,7 +80,7 @@ a {
   flex-direction: column;
   white-space: nowrap;
   align-items: center;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .social-container__item {
@@ -89,9 +88,6 @@ a {
 }
 
 @media (min-width: 576px) {
-  .wrapper {
-    background-position-x: -300px;
-  }
 
   .logo {
     width: 250px;
@@ -110,16 +106,11 @@ a {
 
 @media (min-width: 768px) {
   .wrapper {
-    background-position-x: -500px;
+    background-position-x: right;
   }
 }
 
 @media (min-width: 1200px) {
-  .wrapper {
-    background-position-x: 0;
-  }
-
-
   .content-container {
     height: 50vh;
   }
