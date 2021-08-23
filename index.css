@@ -6,8 +6,12 @@
 }
 
 .underline {
-  text-decoration-color: #9A9CA8;
-  text-decoration: underline;
+  border-bottom: 2px solid #b5bbcf;
+}
+
+.social-container__item:hover .underline {
+  border-bottom: 2px solid #fe4e22;
+
 }
 
 html,
