@@ -9,7 +9,7 @@
   border-bottom: 2px solid #b5bbcf;
 }
 
-.social-container__item:hover .underline {
+.social__item:hover .underline {
   border-bottom: 2px solid #fe4e22;
 
 }
@@ -27,12 +27,11 @@ a {
   text-decoration: none;
 }
 
-
 .wrapper {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: url(img/bg.png);
+  background: url(img/bg.jpg);
   background-size: cover;
   background-position-x: -550px;
 }
@@ -61,7 +60,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 45vh;
+  height: 40vh;
 }
 
 .header {
@@ -79,16 +78,38 @@ a {
   font-size: 18px;
 }
 
-.social-container {
-  display: flex;
-  flex-direction: column;
-  white-space: nowrap;
-  align-items: center;
-  font-size: 23px;
+.social {
+  margin: 0 auto;
 }
 
-.social-container__item {
-  padding-bottom: 10px;
+svg {
+  width: 7vh;
+  height: 7vh;
+  fill: #b5bbcf;
+}
+
+svg:hover {
+  fill: #fff;
+}
+
+
+
+.social__item {
+  margin-right: 15px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.support {
+  margin-top: 30px;
+  border-bottom: #b5bbcf 2px solid;
+}
+
+.support:hover {
+  border-bottom: #fe4e22 2px solid;
+
 }
 
 @media (min-width: 576px) {
@@ -103,7 +124,7 @@ a {
   .sub-title {
     font-size: 25px;
   }
-  .social-container {
+  .social {
     font-size: 30px;
   }
 }
@@ -116,7 +137,7 @@ a {
 
 @media (min-width: 1200px) {
   .content-container {
-    height: 50vh;
+    height: 45vh;
   }
 
   .logo {
@@ -131,7 +152,10 @@ a {
     font-size: 30px;
   }
 
-  .social-container {
+  .social {
     font-size: 35px;
+  }
+  .support {
+    margin-top: 40px;
   }
 }
