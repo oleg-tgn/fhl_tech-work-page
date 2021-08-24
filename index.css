@@ -102,12 +102,12 @@ svg:hover {
   margin-right: 0;
 }
 
-.support {
+.donate {
   margin-top: 30px;
   border-bottom: #b5bbcf 2px solid;
 }
 
-.support:hover {
+.donate:hover {
   border-bottom: #fe4e22 2px solid;
 
 }
@@ -145,7 +145,7 @@ svg:hover {
   }
 
   .title {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .sub-title {
@@ -155,7 +155,7 @@ svg:hover {
   .social {
     font-size: 35px;
   }
-  .support {
+  .donate {
     margin-top: 40px;
   }
 }
