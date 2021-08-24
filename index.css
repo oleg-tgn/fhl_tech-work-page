@@ -5,14 +5,6 @@
   box-sizing: border-box;
 }
 
-.underline {
-  border-bottom: 2px solid #b5bbcf;
-}
-
-.social__item:hover .underline {
-  border-bottom: 2px solid #fe4e22;
-}
-
 html,
 body {
   color: #fff;
@@ -79,6 +71,7 @@ a {
 
 .social {
   display: flex;
+  align-items: center;
   margin: 0 auto;
 }
 
@@ -103,16 +96,15 @@ svg:hover {
 
 .donate {
   margin-top: 30px;
+  padding-bottom: 5px;
   border-bottom: #b5bbcf 2px solid;
 }
 
 .donate:hover {
   border-bottom: #fe4e22 2px solid;
-
 }
 
 @media (min-width: 576px) {
-
   .logo {
     width: 250px;
   }
