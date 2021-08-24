@@ -11,7 +11,6 @@
 
 .social__item:hover .underline {
   border-bottom: 2px solid #fe4e22;
-
 }
 
 html,
@@ -38,7 +37,7 @@ a {
 
 .blur {
   min-height: 100vh;
-  background: rgba(19, 20, 28, 0.8);
+  background: rgba(19, 20, 28, 0.65);
 }
 
 .container {
@@ -79,20 +78,9 @@ a {
 }
 
 .social {
+  display: flex;
   margin: 0 auto;
 }
-
-svg {
-  width: 7vh;
-  height: 7vh;
-  fill: #b5bbcf;
-}
-
-svg:hover {
-  fill: #fff;
-}
-
-
 
 .social__item {
   margin-right: 15px;
@@ -100,6 +88,17 @@ svg:hover {
 
 .social__item:last-child {
   margin-right: 0;
+}
+
+svg {
+  width: 7vh;
+  height: 7vh;
+  fill: #b5bbcf;
+  transition: .2s linear;
+}
+
+svg:hover {
+  fill: #fff;
 }
 
 .donate {
@@ -154,6 +153,10 @@ svg:hover {
 
   .social {
     font-size: 35px;
+  }
+
+  .social__item {
+    margin-right: 45px;
   }
   .donate {
     margin-top: 40px;
